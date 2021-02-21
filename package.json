@@ -1,0 +1,16 @@
+{
+  "name": "exercise",
+  "version": "1.0.0",
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^4.0.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^6.5.0"
+  }
+}
